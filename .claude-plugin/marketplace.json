@@ -1,0 +1,17 @@
+{
+  "name": "cg-plugin",
+  "owner": { "name": "Callgentic Inc.", "url": "https://callcg.com" },
+  "metadata": { "description": "CG: a phone for your AI. Calls and texts you when a job is done; phones people and businesses for you." },
+  "plugins": [
+    {
+      "name": "cg",
+      "source": "./",
+      "description": "A phone for your Claude: CG texts or rings you when a long job is done, and phones people and businesses for you. Set-up is one command and a code to your mobile.",
+      "homepage": "https://callcg.com",
+      "repository": "https://github.com/711webservices/cg-plugin",
+      "license": "MIT",
+      "keywords": ["phone", "sms", "whatsapp", "calls", "notifications", "mcp", "callcg"],
+      "category": "productivity"
+    }
+  ]
+}

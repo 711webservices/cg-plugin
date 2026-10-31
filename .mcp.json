@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cg-start": {
+      "type": "http",
+      "url": "https://connect.callcg.com/mcp/start"
+    }
+  }
+}
