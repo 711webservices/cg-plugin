@@ -17,6 +17,9 @@ No plugin? One line does the same:
 claude mcp add --transport http --scope user cg-start https://connect.callcg.com/mcp/start
 ```
 
+No terminal at all? The Claude app, ChatGPT and Grok take CG with one paste: see
+[callcg.com/start](https://callcg.com/start).
+
 ## What happens
 
 1. Claude asks for your mobile number with the country code (US or UK mobile with a SIM).
