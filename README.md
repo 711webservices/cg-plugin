@@ -33,6 +33,9 @@ That is the whole sign-up. Your number is your account; there is no password.
 - "**Call the dentist** and move my Thursday appointment to after 2."
 - "**Find three plumbers** near me and get quotes for the kitchen leak."
 
+It is two-way. Write to CG from your phone ("Claude: the build looks wrong, check the logs")
+and Claude picks it up with `my_messages`, or waits for your answer with `wait_for_messages`.
+
 When the job finishes, Claude calls `call_me` (CG rings and speaks one sentence, and texts
 the details) or `text_me` (by SMS or WhatsApp, as you asked). For calls to other people, CG
 dials, presses menu keys, waits on hold, talks to whoever answers, and reports back.

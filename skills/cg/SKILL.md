@@ -43,6 +43,20 @@ Report what the tool result says and nothing more: "CG is ringing your phone now
 only when the result starts with "calling". A result starting with "not" means it did not
 happen; say so and why.
 
+## Hearing back from the person
+
+Their phone talks to CG, and CG hands you what they wrote:
+
+- `my_messages`: what they sent CG from their phone since you last looked, each once. Check it
+  after you finish a job and before you ask them something they may already have answered.
+- `wait_for_messages(seconds)`: wait up to 50 seconds for the next message, then get it the same
+  way. Use it when they said they would answer from their phone, or right after `text_me` or
+  `call_me` asked them something. Call it again to keep waiting; do not spin on `my_messages`.
+
+On their side they write to CG as usual (WhatsApp or text). A line that starts "Claude: ..." or
+"tell Claude ..." is kept for you and never answered by CG itself; a voice note is transcribed
+and arrives the same way.
+
 ## Having CG phone someone for them
 
 `call_someone(who, kind, job, said, ...)` queues a call; `said` must be the person's own
