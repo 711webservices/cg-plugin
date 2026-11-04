@@ -58,8 +58,8 @@ dials, presses menu keys, waits on hold, talks to whoever answers, and reports b
 
 A 7-day free trial on CG's shared number, no card: 10 minutes of calls with CG, 10 texts and 2 questions or
 document reviews by the AI council, one trial per mobile number. Calls CG makes for you come with the CG plan:
-$9 a month with your own number, launching soon at [callcg.com](https://callcg.com), with your first payment
-back in full if you ask within 30 days. US and UK only for now.
+$9 a month with your own number, with your first payment back in full if you ask within 30 days; ask CG to
+start it, or see [callcg.com](https://callcg.com). US and UK only for now.
 
 ## Other agents and apps
 
